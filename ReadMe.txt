@@ -1,0 +1,4 @@
+Bu Python kodu öncelikle 5 tane tek basamaklı sayı 1 tane iki basamaklı sayı (10'un katı olan) ve bir tane de 3 basamaklı (elde edilmek istenen sayı) oluşturur. Oluşturulan 6 sayıyı ve 4 işlemi kullanarak mümkün olan bütün olasılıkları oluşturur ve bu olasılıkları tek tek dener. Bulduğu en yakın sonucu ve bu sonucu oluştururken kullandığı sayı kombinasyonuyla beraber yaptığı işlemleri işlem önceliğine bakmaksızın ekrana yazdırır. Bulduğu sonuç ile bulması gereken sonucun arasındaki farkın mutlak değerini alarak bu fark 0 ise 10 puan, 9 dan büyük ise 0 puan ve bu sayıların arasındaysa ona göre puan vermektedir. Ayrıca kodun çalışma süresini de ekrana yazdırıyor.
+
+Aybars Mete Keleş 222803012
+Burhan İsmail Demir 222802042
