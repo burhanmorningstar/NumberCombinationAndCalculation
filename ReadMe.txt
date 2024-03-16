@@ -1,4 +1,25 @@
-Bu Python kodu öncelikle 5 tane tek basamaklı sayı 1 tane iki basamaklı sayı (10'un katı olan) ve bir tane de 3 basamaklı (elde edilmek istenen sayı) oluşturur. Oluşturulan 6 sayıyı ve 4 işlemi kullanarak mümkün olan bütün olasılıkları oluşturur ve bu olasılıkları tek tek dener. Bulduğu en yakın sonucu ve bu sonucu oluştururken kullandığı sayı kombinasyonuyla beraber yaptığı işlemleri işlem önceliğine bakmaksızın ekrana yazdırır. Bulduğu sonuç ile bulması gereken sonucun arasındaki farkın mutlak değerini alarak bu fark 0 ise 10 puan, 9 dan büyük ise 0 puan ve bu sayıların arasındaysa ona göre puan vermektedir. Ayrıca kodun çalışma süresini de ekrana yazdırıyor.
+# Number Combination and Calculation Python Script
 
-Aybars Mete Keleş 222803012
-Burhan İsmail Demir 222802042
+This Python script generates 5 single-digit numbers, 1 two-digit number (a multiple of 10), and 1 three-digit number (the target number). It then generates all possible combinations using these 6 numbers and the 4 basic arithmetic operations. The script iterates through each combination and evaluates them. Regardless of the order of operations, it prints the closest result found along with the combination of numbers used and the operations performed. It calculates the absolute difference between the found result and the target result, assigning a score based on the difference: 10 points if the difference is 0, 0 points if the difference is greater than 9, or a score based on the difference otherwise. Additionally, it prints the execution time of the script.
+
+## Usage
+
+1. Ensure you have Python installed on your system.
+2. Run the script using a Python interpreter.
+
+```bash
+python number_combination_calculator.py
+```
+
+## Example Output
+
+```plaintext
+Closest Result: 732
+Used Combination: 6 * 9 + 72 - 1 * 5
+Execution Time: 0.002 seconds
+Score: 6
+```
+
+## Note
+
+This script efficiently explores all possible combinations of numbers and operations to find the closest result to the target number, disregarding operator precedence. It calculates a score based on the closeness of the found result to the target result, providing an indication of the effectiveness of the combination.
