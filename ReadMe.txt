@@ -11,14 +11,6 @@ This Python script generates 5 single-digit numbers, 1 two-digit number (a multi
 python number_combination_calculator.py
 ```
 
-## Example Output
-
-```plaintext
-Closest Result: 732
-Used Combination: 6 * 9 + 72 - 1 * 5
-Execution Time: 0.002 seconds
-Score: 6
-```
 
 ## Note
 
